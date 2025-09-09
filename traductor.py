@@ -2,7 +2,7 @@ import streamlit as st
 
 # Configuración de la página
 st.set_page_config(
-    page_title="🌎 Traductor Español → Mixteco",
+    page_title="🌎 Traductor Español → Mixteco tu'u savi",
     page_icon="🌎",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -38,7 +38,7 @@ st.markdown(
 
 # Título de la app
 st.title("🌎 Traductor Español → Mixteco")
-st.subheader("Traductor interactivo de palabras")
+st.subheader("Traductor español al mixteco")
 
 # Diccionario Español → Mixteco
 diccionario = {
@@ -73,7 +73,8 @@ if st.button("Traducir"):
 
 # Pie de página
 st.markdown(
-    "<p style='color:#7f8c8d; text-align:center;'>Diccionario básico • Puedes agregar más palabras</p>",
+    "<p style='color:#7f8c8d; text-align:center;'>VERSION BETA BY- ÑA'A ÑUU NDOO YU'U</p>",
     unsafe_allow_html=True
 )
+
 
