@@ -42,16 +42,19 @@ st.subheader("Traductor interactivo de palabras")
 
 # Diccionario Español → Mixteco
 diccionario = {
-    "hola": "ndee",
-    "adiós": "ka'vi",
-    "gracias": "tachi",
-    "amor": "kuaa",
-    "amigo": "ndee ku",
-    "mujer": "ña’a",
-    "hombre": "ñuu",
-    "comer": "kua’a",
-    "beber": "tsi’i",
-    "casa": "ka’an"
+    "hola": "Nakumi Chiun",
+    "adiós": "yati lee",
+    "gracias": "tiavi ndio",
+    "pinotepa de don luis": "ñuu ndoo yu'u",
+    "abuelo": "chii",
+    "abuela": "chiita",
+    "hermano": "yani",
+    "padre": "sutu",
+    "beber": "co'o",
+    "casa": "ve'e",
+    "uno": "iin",
+    "dos": "uvi",
+
 }
 
 # Entrada
@@ -73,3 +76,4 @@ st.markdown(
     "<p style='color:#7f8c8d; text-align:center;'>Diccionario básico • Puedes agregar más palabras</p>",
     unsafe_allow_html=True
 )
+
